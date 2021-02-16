@@ -1,0 +1,101 @@
+@media screen and (max-width: 1280px) {
+    .small-input-content input {
+        width: 25%;
+    }
+
+    .small-input-content button {
+        width: 25%;
+    }
+
+   .card-team {
+       width: 280px;
+   }
+}
+
+@media screen and (max-height: 640px) {
+   header {
+       width: 100%;
+   }
+   
+   header img {
+       width: 72px;
+   }
+
+   nav {
+       margin-right: 35px;
+   }
+
+   nav a {
+       font-size: 12px;
+   }
+
+   .big-title-content {
+       margin: 0 auto;
+       width: 100%;
+       display: inline;
+       background-image: none;
+       background-color: #e2e2e2;
+   }
+
+   .col1 h1 {
+       color: black;
+   }
+
+   .col1 p {
+       color: black;
+       font-size: 3vh;
+   }
+
+   .col2 img{
+       margin-top: 20px;
+       width: 100%;
+   }
+
+   .small-input-content input{
+      width: 80%;
+      margin-right: 5px;
+      margin-bottom: 25px;
+   }
+
+   .small-input-content button {
+      width: 80%;
+      margin-right: 5px;
+   }
+
+   .cards-container {
+       margin-left: 25px;
+       display: inline-block;
+   }
+
+   .card{
+    width: 200px;
+    margin-bottom: 10px;
+   }
+
+   .card-color {
+    width: 200px;
+    margin-bottom: 10px;
+   }
+
+   .accordion-content {
+       width: 90%;
+       margin-left: 20px;
+   }
+
+   .team-title h2 {
+       font-size: 6vh;
+   }
+
+   .team-title p {
+       font-size: 3vh;
+   }
+
+   .team-cards {
+       margin-left: 10px;
+       display: inline-block;
+   }
+
+   .card-team {
+    margin-top: 15px;
+   }
+}

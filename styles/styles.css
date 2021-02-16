@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #15181d;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin-left: 50px;
+    width: 80px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+   margin-left: 25px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.big-title-content {
+    background-image: url('../img/149598.jpg');
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-bottom: 70px;
+}
+
+.col1 {
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 80%;
+}
+
+.col1 h1 {
+    color: white;
+    font-size: 6vh;
+}
+
+.col1 p {
+    color: white;
+    font-size: 2vh;
+    margin-top: 55px;
+    margin-bottom: 100px;
+    text-align: start;
+}
+
+.col1 a {
+   background-color: rgba(0, 0, 0, .5);
+   border: 1px solid white; 
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+   opacity: 0.85;
+   padding: 25px 25px 25px;
+   transition: 200ms;
+}
+
+.col1 a:hover {
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.col2 img {
+    padding: 15px;
+    width: 450px;
+    margin-top: 5px;
+}
+
+.small-input-content {
+    background-color: #333a3c;
+    padding: 30px 30px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.small-input-content input {
+    border: none;
+    font-size: 20px;
+    width: 15%;
+    height: 45px;
+    margin-right: 35px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.small-input-content button {
+    color: white;
+    cursor: pointer;
+    background-color: #7373c6;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 15%;
+    height: 45px;
+    margin-right: 35px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 200ms;
+}
+
+.small-input-content button:hover {
+    opacity: 0.75;
+}
+
+.cards-content {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 80%;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card {
+    border: 1px solid black;
+    margin-left: 25px;
+    padding: 15px 15px 15px;
+    width: 700px;
+}
+
+.card h3{
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-color {
+    color: white;
+    width: 700px;
+    background-color: #0091ff;
+    border: 1px solid black;
+    margin-left: 25px;
+    padding: 15px 15px 15px;
+}
+
+.card-color h3 {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.product-info {
+    background-color: #dde0e7;
+    padding: 25px 25px 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-info h3 {
+    font-size: 3vh;
+    margin-bottom: 25px;
+}
+
+.product-info p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion-content {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+.accordion-container .btn-item {
+    border: 1px solid #c0c2c3;
+    background-color: #f8f8f8;
+    color: #7199fe;
+    padding: 25px 25px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-item.active {
+    background-color: gainsboro;
+    color: blue;
+    transition: 350ms;
+}
+
+.accordion-container .item-content {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+}
+
+.active + .item-content {
+    border: 1px solid #c0c2c3;
+    max-height: 100%;
+    opacity: 1;
+    transition: 350ms;
+    padding: 20px 20px 20px;
+}
+
+.team-content {
+    margin-top: 35px;
+    background-color: #007ff0;
+    padding: 30px 30px 30px;
+}
+
+.team-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-title h2 {
+    font-size: 5vh;
+    margin-bottom: 35px;
+}
+
+.team-title p {
+    font-size: 2vh;
+}
+
+.team-cards {
+    display: flex;
+}
+
+.card-team {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px 20px 20px;
+}
+
+.card-team p {
+    margin-bottom: 25px;
+}
+
+.card-team a {
+    padding: 10px 20px 10px;
+}
+
+.card-team a img {
+    width: 35px;
+}
+
+footer {
+    color: white ;
+    background-color: #1e1f28;
+    margin-top: 25px;
+    padding: 15px 15px 15px;
+    text-align: center;
+}
